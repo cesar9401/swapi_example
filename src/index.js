@@ -64,11 +64,11 @@ function division(a, b) {
 // 	.then(result => console.log(result))
 // 	.catch(err => console.log(err));
 
-async function asyncFunctio() {
+async function asyncFunction() {
 	const res1 = await division(12, 3);
 	const res2 = await division(34, 2);
 	console.log(res1);
 	console.log(res2);
 }
 
-asyncFunctio();
+asyncFunction();

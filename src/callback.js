@@ -10,7 +10,7 @@ function fetchData(url, callback) {
 			if(xhttp.status === 200) {
 				callback(null, JSON.parse(xhttp.responseText));
 			} else {
-				return callback(error, null);
+				return callback(new Error('Error' + url), null);
 			}
 		}
 	}
