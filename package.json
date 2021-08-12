@@ -1,0 +1,17 @@
+{
+  "name": "swapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+	  "callback": "node ./src/callback.js",
+	  "promise": "node ./src/promise.js",
+	  "async": "node ./src/async-await.js"
+  },
+  "keywords": [],
+  "author": "Cesar Tzoc <csartalva01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
